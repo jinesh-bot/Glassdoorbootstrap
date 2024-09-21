@@ -1,0 +1,14 @@
+span{
+    text-decoration: underline;
+    color: #00a264;
+    font-size: 12px;
+}
+.font{
+    font-size: 12px;
+    font-weight: 400;
+}
+.btn-hover-none:hover{
+    color:black;
+    background-color: white;
+
+}
