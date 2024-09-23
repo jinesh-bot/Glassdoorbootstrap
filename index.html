@@ -14,7 +14,7 @@
 <body>
     <!-- head -->
     <header>
-        <div class="container-fluid ">
+        <div class="container-fluid p-0">
             <div class="d-flex justify-content-around pt-4">
                 <div class="">
                     <img src="image/title.svg" alt="">
@@ -104,20 +104,20 @@
                 goods you need to succeed.</p>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-6 d-flex flex-column justify-content-center ">
+            <div class="col-lg-3 col-6 d-flex flex-column justify-content-center align-items-center">
                 <img class=" im-com " src="image/comm.svg" alt="">
                 <p class="text-center">Join your community</p>
 
             </div>
-            <div class="col-lg-3 col-6  d-flex flex-column justify-content-center">
+            <div class="col-lg-3 col-6  d-flex flex-column justify-content-center align-items-center">
                 <img class=" im-com" src="image/job.svg" alt="">
                 <p class="text-center">Find and apply jobs</p>
             </div>
-            <div class="col-lg-3 col-6 d-flex flex-column justify-content-center">
+            <div class="col-lg-3 col-6 d-flex flex-column justify-content-center align-items-center">
                 <img class=" im-com" src="image/company.svg" alt="">
                 <p class="text-center">Search Company reviews</p>
             </div>
-            <div class="col-lg-3 col-6 d-flex flex-column justify-content-center">
+            <div class="col-lg-3 col-6 d-flex flex-column justify-content-center align-items-center">
                 <img class=" im-com" src="image/salaries.svg" alt="">
                 <p class="text-center">Compare salaries</p>
             </div>
@@ -186,21 +186,23 @@
                 </div>
             </div>
         </div>
-        <div class="container d-flex justify-content-around ps-5">
-            <div class="container d-flex ">
-                <p class="fw-bolder">Download Our app</p>
+        <div class="d-flex justify-content-center  row">
+            <div class="d-flex justify-content-center col-12 col-lg-3">
+                <div class="comtainer d-flex-inline ">
+                    <p class="fw-bolder">Download Our app</p>
+                </div>
                 <img class="im-g" src="image/android.svg" alt="">
                 <img class="im-g" src="image/apple.svg" alt="">
             </div>
-            <div class="container d-flex">
+            <div class="col-lg-3 d-flex justify-content-center col-12">
                 <img src="image/profileg.svg" alt="">
                 <img src="image/facebook.svg" alt="">
                 <img src="image/x.svg" alt="">
                 <img src="image/youtube.svg" alt="">
                 <img src="image/tiktok.svg" alt="">
             </div>
-            <div class="container d-flex ">
-                <select name="country" id="country">
+            <div class="col-lg-3 d-flex d-nowrap justify-content-center col-12">
+                <select name="country" id="country" class="form-select form-select-lg fs-6">
                     <option value="country">India</option>
                     <option value="Hongkong">Hong kong</option>
                     <option value="spain">spain</option>
@@ -232,9 +234,9 @@
                 </select>
             </div>
         </div>
-        <hr>
         <!-- section5 -->
         <div class="container text-center">
+            <hr>
             <h10>
                 Browse by:CompaniesJob,Locations,Communities,Recent,posts<br>
                 Copyright © 2008-2024, Glassdoor LLC. "Glassdoor" and logo are registered trademarks of Glassdoor LLC.
