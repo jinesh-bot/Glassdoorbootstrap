@@ -12,3 +12,24 @@ span{
     background-color: white;
 
 }
+.im-com{
+    width: 66px;
+    margin-left: 100px;
+}
+.bg-color-ash{
+    background-color: #f5f6f7;
+}
+li{
+    list-style: none;
+}
+.glass-big{
+    width: 185px;
+    height: 55px;
+}
+ul{
+    padding: 0%;
+}
+.im-g{
+    width: 30px;
+    height: 30px;
+}
